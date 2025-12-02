@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules (if you expand into build tools)
+node_modules/
+
+# Build output (if you later add tooling)
+dist/
+build/
+
+# Env files (never commit)
+.env
+.env.local
+.env.*

@@ -54,13 +54,20 @@
 
   <!-- TOP BAR -->
   <div class="bg-white/90 border-b border-[color:var(--detox-border)]">
-    <div class="w-full max-w-6xl mx-auto px-4 py-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+    <div class="w-full max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
 
-      <div class="flex items-center gap-3">
-        <!-- LOGO -->
-        <img src="https://storage.googleapis.com/msgsndr/StfNy22QbdYcambHAmlP/media/692f47e80b50111514a5b95b.png"
-             alt="Detox-MD Logo"
-             class="w-14 h-14 object-contain">
+      <!-- CENTERED LOGO (FIRST THING VISITORS SEE) -->
+      <div class="flex justify-center">
+        <a href="https://www.youtube.com/@Detox-MD" target="_blank" rel="noopener">
+          <img
+            src="https://storage.googleapis.com/msgsndr/StfNy22QbdYcambHAmlP/media/692f47e80b50111514a5b95b.png"
+            alt="Detox-MD Logo"
+            class="w-[250px] h-[250px] object-contain">
+        </a>
+      </div>
+
+      <!-- TITLE + CONTACT ROW -->
+      <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
 
         <div>
           <p class="text-xs uppercase tracking-[0.22em] text-[color:var(--detox-muted)]">
@@ -74,24 +81,30 @@
             individual doctors building a serious presence in the detox space.
           </p>
         </div>
-      </div>
 
-      <div class="flex flex-col items-start md:items-end gap-2">
-        <div class="text-xs uppercase tracking-[0.20em] text-[color:var(--detox-muted)]">
-          Memorably yours
+        <div class="flex flex-col items-start md:items-end gap-2">
+          <div class="text-xs uppercase tracking-[0.20em] text-[color:var(--detox-muted)]">
+            Memorably yours
+          </div>
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
+            <span class="text-xs text-[color:var(--detox-muted)]">Vanity Line:</span>
+            <a href="tel:+15593386963" class="text-lg font-semibold detox-primary-text">
+              +1 (559) Detox-MD
+            </a>
+          </div>
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
+            <span class="text-xs text-[color:var(--detox-muted)]">Social:</span>
+            <a
+              href="https://www.youtube.com/@Detox-MD"
+              target="_blank"
+              rel="noopener"
+              class="text-sm font-semibold detox-primary-text hover:underline">
+              @Detox-MD
+            </a>
+          </div>
         </div>
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
-          <span class="text-xs text-[color:var(--detox-muted)]">Vanity Line:</span>
-          <a href="tel:+15593386963" class="text-lg font-semibold detox-primary-text">
-            +1 (559) DETOX-MD
-          </a>
-        </div>
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
-          <span class="text-xs text-[color:var(--detox-muted)]">Social:</span>
-          <span class="text-sm font-semibold detox-primary-text">@Detox-MD</span>
-        </div>
-      </div>
 
+      </div>
     </div>
   </div>
 
@@ -177,8 +190,7 @@
         </p>
 
         <p class="text-sm sm:text-base text-[color:var(--detox-muted)]">
-          This is what we mean by <span class="font-semibold">Connecting Business To The Grid™</span>: 
-          everything linked, everyone informed, nothing lost.
+          <span class="font-semibold">Everything Linked, Everyone Informed, Nothing Lost.</span>
         </p>
 
         <!-- LONG-FORM 484 OPERATOR VIDEO EMBED -->
@@ -281,11 +293,6 @@
   <!-- FULL-WIDTH CALENDAR -->
   <section class="wallpaper">
     <div class="w-full px-0 py-6 sm:py-8">
-
-      <p class="text-center text-base sm:text-lg mb-4 text-[color:var(--detox-muted)] max-w-3xl mx-auto">
-        This calendar will automatically adjust to your device for a clean, full-width mobile experience.
-      </p>
-
       <div class="w-full">
         <iframe
           src="https://api.leadconnectorhq.com/widget/booking/qJbe25XqIsy6rIZ9wNUu"
@@ -303,7 +310,7 @@
     <div class="w-full max-w-5xl mx-auto px-4 py-4 flex flex-col gap-3 text-center sm:text-left">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-2">
         <p>&copy; <span id="year"></span> Detox-MD — Intake & Brand Infrastructure.</p>
-        <p>You provide care. We connect the grid.</p>
+        <p>You provide care. We code.</p>
       </div>
       <div class="flex justify-center w-full">
         <div class="detox-card rounded-3xl shadow-lg px-4 py-4 text-center w-full sm:w-auto">

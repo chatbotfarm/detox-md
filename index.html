@@ -52,59 +52,61 @@
 
 <body class="text-[color:var(--detox-ink)] text-base antialiased">
 
+  <!-- CENTERED LOGO – FIRST VISUAL ELEMENT -->
+  <div class="w-full flex justify-center pt-4 pb-2">
+    <img
+      src="https://storage.googleapis.com/msgsndr/StfNy22QbdYcambHAmlP/media/692f47e80b50111514a5b95b.png"
+      alt="Detox-MD Logo"
+      class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] object-contain mx-auto">
+  </div>
+
   <!-- TOP BAR -->
   <div class="bg-white/90 border-b border-[color:var(--detox-border)]">
-    <div class="w-full max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
+    <div class="w-full max-w-6xl mx-auto px-4 py-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
 
-      <!-- CENTERED LOGO (FIRST THING VISITORS SEE) -->
-      <div class="flex justify-center">
-        <a href="https://www.youtube.com/@Detox-MD" target="_blank" rel="noopener">
-          <img
-            src="https://storage.googleapis.com/msgsndr/StfNy22QbdYcambHAmlP/media/692f47e80b50111514a5b95b.png"
-            alt="Detox-MD Logo"
-            class="w-[250px] h-[250px] object-contain">
-        </a>
+      <div>
+        <p class="text-xs uppercase tracking-[0.22em] text-[color:var(--detox-muted)]">
+          Intake Identity, Brand & Infrastructure
+        </p>
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold detox-primary-text tracking-tight">
+          Detox-MD · You provide care. We code & streamline.
+        </h1>
+        <p class="text-sm sm:text-base text-[color:var(--detox-muted)] mt-1 max-w-xl">
+          HIPAA-compliant intake, CRM, content, and admissions infrastructure for clinics and
+          individual doctors building a serious presence in the detox space.
+        </p>
       </div>
 
-      <!-- TITLE + CONTACT ROW -->
-      <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-
-        <div>
-          <p class="text-xs uppercase tracking-[0.22em] text-[color:var(--detox-muted)]">
-            Intake Identity, Brand & Infrastructure
-          </p>
-          <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold detox-primary-text tracking-tight">
-            Detox-MD · You provide care. We code & streamline.
-          </h1>
-          <p class="text-sm sm:text-base text-[color:var(--detox-muted)] mt-1 max-w-xl">
-            HIPAA-compliant intake, CRM, content, and admissions infrastructure for clinics and
-            individual doctors building a serious presence in the detox space.
-          </p>
+      <div class="flex flex-col items-start md:items-end gap-2">
+        <div class="text-xs uppercase tracking-[0.20em] text-[color:var(--detox-muted)]">
+          Memorably yours
         </div>
 
-        <div class="flex flex-col items-start md:items-end gap-2">
-          <div class="text-xs uppercase tracking-[0.20em] text-[color:var(--detox-muted)]">
-            Memorably yours
-          </div>
-          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
-            <span class="text-xs text-[color:var(--detox-muted)]">Vanity Line:</span>
-            <a href="tel:+15593386963" class="text-lg font-semibold detox-primary-text">
-              +1 (559) Detox-MD
-            </a>
-          </div>
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
-            <span class="text-xs text-[color:var(--detox-muted)]">Social:</span>
-            <a
-              href="https://www.youtube.com/@Detox-MD"
-              target="_blank"
-              rel="noopener"
-              class="text-sm font-semibold detox-primary-text hover:underline">
-              @Detox-MD
-            </a>
-          </div>
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
+          <span class="text-xs text-[color:var(--detox-muted)]">Vanity Line:</span>
+          <a href="tel:+15593386963" class="text-lg font-semibold detox-primary-text">
+            +1 (559) Detox-MD
+          </a>
         </div>
 
+        <!-- SOCIAL CHIP (YouTube) -->
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[color:var(--detox-bg)] border border-[color:var(--detox-border)]">
+          <span class="text-xs text-[color:var(--detox-muted)]">YouTube:</span>
+          <a
+            href="https://www.youtube.com/@Detox-MD"
+            target="_blank"
+            rel="noopener"
+            class="flex items-center gap-1 text-sm font-semibold detox-primary-text hover:underline"
+          >
+            <svg viewBox="0 0 24 24" class="h-4 w-5" aria-hidden="true">
+              <rect x="1" y="5" width="22" height="14" rx="4" ry="4" fill="#FF0000"></rect>
+              <polygon points="10,8 16,12 10,16" fill="#FFFFFF"></polygon>
+            </svg>
+            @Detox-MD
+          </a>
+        </div>
       </div>
+
     </div>
   </div>
 
@@ -118,6 +120,7 @@
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold detox-primary-text mb-3">
             Your expertise is detox.<br class="hidden sm:block">Our expertise is digital intake & authority.
           </h2>
+
           <p class="text-base sm:text-lg text-[color:var(--detox-muted)] mb-4 max-w-xl">
             Detox-MD gives clinics and individual doctors a clean, unified identity and a 
             HIPAA-compliant backend that converts interest into organized admissions.
@@ -150,6 +153,7 @@
           <h3 class="text-sm font-semibold detox-primary-text mb-2 uppercase tracking-[0.18em]">
             Your Intake Identity
           </h3>
+
           <ul class="space-y-2 text-sm sm:text-base">
             <li>• Vanity line: <span class="font-semibold detox-primary-text">+1 (559) DETOX-MD</span></li>
             <li>• Unified handle: <span class="font-semibold">@Detox-MD</span></li>
@@ -189,7 +193,7 @@
           your clinical team can stay focused on patients.
         </p>
 
-        <p class="text-sm sm:text-base text-[color:var(--detox-muted)]">
+        <p class="text-sm sm:text-base text-[color:var(--detox-muted)] mb-4">
           <span class="font-semibold">Everything Linked, Everyone Informed, Nothing Lost.</span>
         </p>
 
@@ -211,6 +215,7 @@
   <!-- SYSTEM STEPS -->
   <section class="py-8 sm:py-10 border-t border-[color:var(--detox-border)] bg-white/60">
     <div class="w-full max-w-6xl mx-auto px-4">
+
       <div class="text-center max-w-3xl mx-auto mb-6">
         <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-2">
           The Detox-MD System · 6 Clear Steps
@@ -220,32 +225,44 @@
       <div class="grid lg:grid-cols-3 gap-5">
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 1</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 1
+          </h3>
           <p class="text-base font-semibold mb-2">Build your HIPAA-compliant, AI-powered CRM</p>
         </div>
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 2</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 2
+          </h3>
           <p class="text-base font-semibold mb-2">Build authority under the Detox-MD identity</p>
         </div>
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 3</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 3
+          </h3>
           <p class="text-base font-semibold mb-2">Deploy funnels around +1 (559) DETOX-MD & Detox-MD handles</p>
         </div>
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 4</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 4
+          </h3>
           <p class="text-base font-semibold mb-2">Automate intakes & lead handling</p>
         </div>
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 5</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 5
+          </h3>
           <p class="text-base font-semibold mb-2">Monitor, refine, and support your team</p>
         </div>
 
         <div class="detox-card rounded-3xl px-4 py-5">
-          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">Step 6</h3>
+          <h3 class="text-sm font-semibold detox-primary-text mb-1 uppercase tracking-[0.18em]">
+            Step 6
+          </h3>
           <p class="text-base font-semibold mb-2">Ongoing upgrades & funnel development</p>
         </div>
 
@@ -257,9 +274,11 @@
   <section class="py-8 sm:py-10">
     <div class="w-full max-w-6xl mx-auto px-4">
       <div class="detox-card rounded-3xl shadow-lg px-5 py-6 sm:px-6 sm:py-7">
+
         <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3">
           Professional Content & Video Support
         </h2>
+
         <p class="text-base text-[color:var(--detox-muted)] mb-3">
           We use professional-grade video editing and content production tools to help clinics and doctors 
           create clear, credible, patient-friendly materials for education and authority building.
@@ -275,6 +294,23 @@
             allowfullscreen>
           </iframe>
         </div>
+
+        <!-- OFFICIAL YOUTUBE CHANNEL LINK -->
+        <div class="flex justify-center mt-3">
+          <a
+            href="https://www.youtube.com/@Detox-MD"
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-2 text-sm text-[color:var(--detox-muted)] hover:text-[color:var(--detox-primary-dark)]"
+          >
+            <svg viewBox="0 0 24 24" class="h-4 w-5" aria-hidden="true">
+              <rect x="1" y="5" width="22" height="14" rx="4" ry="4" fill="#FF0000"></rect>
+              <polygon points="10,8 16,12 10,16" fill="#FFFFFF"></polygon>
+            </svg>
+            <span>Official Detox-MD YouTube Channel</span>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -308,10 +344,12 @@
   <!-- FOOTER -->
   <footer class="bg-white text-[color:var(--detox-ink)] text-base border-t border-[color:var(--detox-border)]">
     <div class="w-full max-w-5xl mx-auto px-4 py-4 flex flex-col gap-3 text-center sm:text-left">
+
       <div class="flex flex-col sm:flex-row items-center justify-between gap-2">
         <p>&copy; <span id="year"></span> Detox-MD — Intake & Brand Infrastructure.</p>
         <p>You provide care. We code.</p>
       </div>
+
       <div class="flex justify-center w-full">
         <div class="detox-card rounded-3xl shadow-lg px-4 py-4 text-center w-full sm:w-auto">
           <p class="text-sm text-[color:var(--detox-muted)] leading-relaxed">
@@ -320,6 +358,7 @@
           </p>
         </div>
       </div>
+
     </div>
   </footer>
 

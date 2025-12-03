@@ -64,7 +64,7 @@
   <div class="bg-white/90 border-b border-[color:var(--detox-border)]">
     <div class="w-full max-w-6xl mx-auto px-4 py-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
 
-      <!-- now centered on mobile, left on md+ -->
+      <!-- centered on mobile, left on desktop -->
       <div class="text-center md:text-left">
         <p class="text-xs uppercase tracking-[0.22em] text-[color:var(--detox-muted)]">
           HIPAA-Safe Intake, CRM & Brand Infrastructure
@@ -118,7 +118,7 @@
       <div class="grid lg:grid-cols-[1.1fr,0.9fr] gap-8 items-center">
 
         <div>
-          <!-- forced line break between sentences -->
+          <!-- separate lines for clarity -->
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold detox-primary-text mb-3">
             Your expertise is detox.<br>Our expertise is building the digital front office around you.
           </h2>
@@ -175,16 +175,17 @@
 
       </div>
 
-      <!-- QUICK “BUILT FOR” STRIP -->
-      <div class="mt-6 detox-card rounded-3xl px-4 py-3 flex flex-wrap gap-2 items-center text-xs sm:text-sm text-[color:var(--detox-muted)]">
-        <span class="font-semibold detox-primary-text mr-2">Built for:</span>
-        <span>Detox & MAT clinics</span>
-        <span class="mx-1">•</span>
-        <span>Individual physicians & NPs</span>
-        <span class="mx-1">•</span>
-        <span>Telehealth & remote programs</span>
-        <span class="mx-1">•</span>
-        <span>Recovery coaching & aftercare</span>
+      <!-- BUILT FOR STRIP (clean mobile layout) -->
+      <div class="mt-6 detox-card rounded-3xl px-4 py-3 text-xs sm:text-sm text-[color:var(--detox-muted)]">
+        <p class="font-semibold detox-primary-text tracking-[0.18em] uppercase mb-2">
+          Built for
+        </p>
+        <ul class="space-y-1 sm:flex sm:flex-wrap sm:gap-x-3 sm:gap-y-1">
+          <li>Detox & MAT clinics</li>
+          <li>Individual physicians & NPs</li>
+          <li>Telehealth & remote programs</li>
+          <li>Recovery coaching & aftercare</li>
+        </ul>
       </div>
     </div>
   </header>
@@ -193,7 +194,7 @@
   <section class="py-8 sm:py-10">
     <div class="w-full max-w-6xl mx-auto px-4">
       <div class="detox-card rounded-3xl shadow-lg px-5 py-6 sm:px-6 sm:py-7">
-        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3">
+        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3 text-center">
           Is This What Your Front Office Feels Like Right Now?
         </h2>
         <div class="grid md:grid-cols-2 gap-5 text-sm sm:text-base text-[color:var(--detox-muted)]">
@@ -223,7 +224,7 @@
     <div class="w-full max-w-6xl mx-auto px-4">
       <div class="detox-card rounded-3xl shadow-lg px-5 py-6 sm:px-6 sm:py-7">
 
-        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3">
+        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3 text-center">
           Who Builds & Maintains Detox-MD
         </h2>
 
@@ -232,17 +233,6 @@
           led by <span class="font-semibold">484 Operator</span> as our principal systems architect.
         </p>
 
-        <!-- LONG-FORM 484 OPERATOR VIDEO EMBED -->
-        <div class="mt-6 w-full aspect-video rounded-2xl overflow-hidden shadow-md">
-          <iframe 
-            src="https://www.youtube.com/embed/FZ4W_MNU8MA"
-            title="484 Operator"
-            class="w-full h-full"
-            frameborder="0"
-            allowfullscreen>
-          </iframe>
-        </div>
-        
         <p class="text-sm sm:text-base text-[color:var(--detox-muted)] mb-4">
           We design CRM and voice-AI systems for operators who want <span class="font-semibold">fewer tools,
           fewer logins, and more visibility</span>. For detox and recovery work, that means
@@ -263,6 +253,16 @@
           <span class="font-semibold">Everything Linked, Everyone Informed, Nothing Lost.</span>
         </p>
 
+        <!-- LONG-FORM 484 OPERATOR VIDEO EMBED -->
+        <div class="mt-6 w-full aspect-video rounded-2xl overflow-hidden shadow-md">
+          <iframe 
+            src="https://www.youtube.com/embed/FZ4W_MNU8MA"
+            title="484 Operator"
+            class="w-full h-full"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
 
       </div>
     </div>
@@ -274,7 +274,7 @@
 
       <div class="text-center max-w-3xl mx-auto mb-6">
         <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-2">
-          One Detox-MD Identity · Many Ways to Use It
+          One Detox-MD Identity<br>· Many Ways to Use It
         </h2>
         <p class="text-sm sm:text-base text-[color:var(--detox-muted)]">
           Start with core intake and admissions, then selectively switch on new channels —
@@ -392,7 +392,7 @@
   <section class="py-8 sm:py-10">
     <div class="w-full max-w-6xl mx-auto px-4">
       <div class="detox-card rounded-3xl shadow-lg px-5 py-6 sm:px-6 sm:py-7">
-        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3">
+        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3 text-center">
           What You Get When You Deploy Detox-MD
         </h2>
 
@@ -427,7 +427,7 @@
     <div class="w-full max-w-6xl mx-auto px-4">
 
       <div class="text-center max-w-3xl mx-auto mb-6">
-        <!-- forced line break + “Clear Steps” -->
+        <!-- separate lines for title -->
         <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-2">
           The Detox-MD System<br>· 6 Clear Steps
         </h2>
@@ -507,7 +507,7 @@
     <div class="w-full max-w-6xl mx-auto px-4">
       <div class="detox-card rounded-3xl shadow-lg px-5 py-6 sm:px-6 sm:py-7">
 
-        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3">
+        <h2 class="text-xl sm:text-2xl font-semibold detox-primary-text mb-3 text-center">
           Professional Content & Video Support
         </h2>
 
